@@ -1,13 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 /* HEADER */
+header{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    position: absolute;
+}
+
+/* primeros 2 bloques */
+
+.Header__bloque{
+    width: 50%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.divisor{
+    font-size: 1.5em;
+    margin: 0 5px;
+}
+
+.modificador--bloque1{
+    display: flex;
+}
+
+.Header__texto{
+    margin-left: 50px;
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+
+header > div:nth-child(2){
+    justify-content: end;
+}
+
+.modificador--bloque2 > img:nth-child(4){
+    margin-right: 100px;
+}
+
+.header__icon{
+    max-width: 18px;
+    max-height: 18px;
+    margin: 0 15px;
+}
+
+.header__icon:hover{
+    cursor: pointer;
+}
+
+/* nav */
+.Header__nav{
+    display: flex;
+    min-width: 56%;
+    height: 40px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.Header__nav__Dropdown__menu{
+    display: flex;
+    align-items: center;
+}
+
+.Header__nav__link{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.Header__nav__link:hover{
+    color: #1AB6D0;
+}
+
+.modificador--link{
+    margin-right: 20px;
+}
+
+.icon--modificador{
+    margin: 0px;
+    max-width: 14px;
+    max-height: 14px;
+    margin-right: 20px;
+    margin-left: 2px;
+}
+
+.icon--modificador2{
+    max-width: 40px;
+    max-height: 40px;
+}
+
 
 /* HERO (PONER LA IMAGEN DE FONDO DEL HERO) */
+.Hero{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../IMG/Hero/hero 2.jpg") no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    color: white;
+    font-size: 2em;
+}
+
+.Hero__Titulo{
+    font-weight: 600;
+}
+
 
 /* MAIN */
 
