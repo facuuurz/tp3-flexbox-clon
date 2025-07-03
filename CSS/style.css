@@ -14,6 +14,7 @@ header{
     flex-wrap: wrap;
     justify-content: end;
     position: absolute;
+    width: 100%;
 }
 
 /* primeros 2 bloques */
