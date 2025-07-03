@@ -123,4 +123,117 @@ header > div:nth-child(2){
 
 /* MAIN */
 
+main{
+    width: 100%;
+    height: 100%;
+    margin-top: 35px;
+}
+
+/*SOBRE NOSOTROS (SECCION 1)*/
+
+.SobreNosotros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    height: 100%;
+}
+
+.SobreNosotros__bloque{
+    width: 50%;
+}
+
+.SobreNosotros__item{
+    width: 80%;
+}
+
+
+/* bloque 1 */
+.sn--item{
+    margin: 25px 0;
+}
+
+.sn--bloque1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.SobreNosotros__titulo{
+    color: #000405;
+    font-size: 1.4em;
+    margin-bottom: 5px;
+}
+
+.sn--texto{
+    color: #646A72;
+}
+
+hr{
+    border: none;
+    width: 25%;
+    height: 5px; /* grosor de la línea */
+    background-color: #F2F2F2;
+    margin-top: 35px;
+}
+
+.sn--item > hr:nth-child(1){
+    background-color: #1AB6D0;
+}
+
+.sn--item--1{
+    display: flex;
+}
+
+/* bloque 2 */
+
+.sn--bloque2{
+    display: flex;
+    min-height: 728px;
+    align-items: center;
+}
+
+.SobreNosotros__sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 60px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    right: 0;
+}
+
+.SobreNosotros__icono{
+    height: 20%;
+    width: 60px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SobreNosotros__icono:hover{
+    background-color: rgba(124, 124, 124, 0.7);
+    cursor: pointer;
+}
+
+.sn__icono{
+    height: 50%;
+    width: 50%;
+}
+
+
+.sn--ilustracion{
+    background: url("../IMG/seccion 1/ilustracion 1.jpg") center/cover;
+    width: 85%;
+    height: 750px;
+    margin: 35px 0;
+}
 /* FOOTER */
