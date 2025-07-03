@@ -144,22 +144,22 @@ main{
     width: 50%;
 }
 
+
+
+
+/* bloque 1 */
+
 .SobreNosotros__item{
     width: 80%;
 }
 
 
-/* bloque 1 */
-.sn--item{
-    margin: 25px 0;
-}
-
 .sn--bloque1{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding-top: 35px;
+    height: 878px;
 }
 
 .SobreNosotros__titulo{
@@ -175,24 +175,37 @@ main{
 hr{
     border: none;
     width: 25%;
-    height: 5px; /* grosor de la línea */
+    height: 5px;
     background-color: #F2F2F2;
-    margin-top: 35px;
 }
 
 .sn--item > hr:nth-child(1){
     background-color: #1AB6D0;
 }
 
-.sn--item--1{
+.sn--item{
     display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.SobreNosotros__item{
+    margin-top: 35px;
+}
+
+.sn--item--1{
+    flex-direction: row;
+    align-items: end;
+    justify-self: start;
+    margin-bottom: 35px;
+    margin-top: 0px;
 }
 
 /* bloque 2 */
 
 .sn--bloque2{
     display: flex;
-    min-height: 728px;
+    height: 878px;
     align-items: center;
 }
 
@@ -207,6 +220,7 @@ hr{
     background-color: rgba(0,0,0,0.7);
     position: absolute;
     right: 0;
+    box-shadow: -4px 0px 12px rgba(0, 0, 0, 0.2);
 }
 
 .SobreNosotros__icono{
@@ -233,7 +247,8 @@ hr{
 .sn--ilustracion{
     background: url("../IMG/seccion 1/ilustracion 1.jpg") center/cover;
     width: 85%;
-    height: 750px;
+    height: 80%;
     margin: 35px 0;
+    margin-right: 100px;
 }
 /* FOOTER */
