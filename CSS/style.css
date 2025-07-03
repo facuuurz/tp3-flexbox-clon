@@ -261,13 +261,14 @@ hr{
 }
 
 .Grupo__bloque{
-    margin: 35px 0;
     display: flex;
 }
 
 .Grupo--bloque1{
     align-items: center;
     justify-content: space-around;
+    margin: 35px 0;
+    padding: 35px;
 }
 
 .Grupo__item{
@@ -301,5 +302,127 @@ hr{
 
 .Grupo__imagen:hover{
     filter: grayscale(0%);
+}
+
+.Grupo--bloque2{
+    margin-top: 35px;
+}
+
+/* Seccion 3 (call to action) */
+.cta{
+    display: flex;
+    flex-direction: column;
+}
+
+.cta__bloque{
+    display: flex;
+    flex-direction: column;
+    background-color: coral;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url("../IMG/seccion 3/fondo 2.jpg") no-repeat center/cover;
+    padding: 35px;
+}
+
+.cta__item__titulo{
+    font-size: 3rem;
+    margin-top: 35px;
+}
+
+.cta__item__texto{
+    color: #646A72;
+    font-size: 1.1rem;
+    margin: 15px;
+}
+
+.cta__item__link{
+    text-decoration: none;
+    color:white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 20px;
+    background-color: #0CB9E7;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.cta__bloque2{
+    display: flex;
+    background-color: coral;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.icono{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.ilustracion{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.pre__footer__item{
+    display: flex;
+    flex-direction: column;
+    background-color: #0CB9E7;
+    width: 25%;
+}
+
+.cta__icono__item{
+    display: flex;
+    gap: 10px;
+}
+
+.footer__ilustracion{
+    width: 60%;
+}
+
+.pre__footer__titulo{
+    color: white;
+}
+
+.texto{
+    color: #646A72;
+}
+
+.pf--item1{
+    gap: 15px;
+}
+
+.texto--modificador{
+    color:white;
+    font-weight: 800;
+}
+
+.cta__icono{
+    height: 2rem;
+    background-color: #646A72;
+    border-radius: 10px;
+    box-sizing: initial;
+    padding: 3px;
+}
+
+.cta__icono:hover{
+    cursor:pointer;
+}
+
+.pre__footer__post{
+    display: flex;
+}
+
+.pf--item2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pf--titulo{
+    width: 100%;
 }
 /* FOOTER */
