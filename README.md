@@ -24,7 +24,6 @@ Se puede acceder al proyecto desde GitHub Pages en el siguiente enlace:
 
 👉 [Ver sitio en GitHub Pages](https://facuuurz.github.io/tp3-flexbox-clon/)
 
-> Reemplazá el enlace con el tuyo cuando lo tengas publicado.
 
 ## 📌 Autor
 
